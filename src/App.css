@@ -18,6 +18,38 @@
   font-size: large;
 }
 
+/* stage --start*/
+.stage{
+  position:relative;
+  width:100%;
+  height:680px;
+}
+/*stage  --end*/
+
+/*img-sec start*/
+.img-sec{
+  position: relative;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+
+  background-color: #ddd;
+}
+/*img-sec end*/
+
+/*controller  start*/
+.controller-nav{
+  position: absolute;
+  left:0;
+  bottom:30px;
+  z-index:101;
+
+  width:100%;
+  text-align:center;
+
+}
+/*controller end*/
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

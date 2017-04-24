@@ -1,19 +1,23 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import getImageURL from './util.js';
+
+//get image address
+var imageDatas = require('./data/imageDatas.json')
+//get image url
+imageDatas = getImageURL(imageDatas);
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <section className="stage">
+        <section className="img-sec">
+        
+        </section>
+        <nav className="controller-nav">
+        </nav>
+      </section>
     );
   }
 }
