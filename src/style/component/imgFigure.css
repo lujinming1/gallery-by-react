@@ -1,4 +1,5 @@
 .img-figure{
+  position:absolute;
   width:320px;
   height:360px;
   margin:0;
@@ -11,11 +12,10 @@
 figcaption{
   text-align:center;
 
-
-
 }
 
 figcaption .img-title{
+
   margin:20px 0 0 0;
 
   color:#a7a0a2;
