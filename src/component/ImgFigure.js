@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../style/component/imgFigure.css'
+import '../style/component/imgFigure.css';
 
 
 class ImgFigure extends Component {

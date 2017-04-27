@@ -5,6 +5,7 @@ import './App.css';
 import getImageURL from './util';
 
 import ImgFigure from './component/ImgFigure'
+import ControllerUnit from './component/ControllerUnit'
 //get image address
 var imageDatas = require('./data/imageDatas.json')
 //get image url
@@ -206,7 +207,12 @@ class App extends Component {
                 ref={'imgFigure'+index}
                  arrange={this.state.imgsArrangeArr[index]}
                  inverse={this.inverse(index)}
-                 center={this.center(index)}  />)
+                 center={this.center(index)}  />);
+      controllerUnits.push(<ControllerUnit key={index}
+                arrange={this.state.imgsArrangeArr[index]}
+                inverse={this.inverse(index)}
+                center={this.center(index)} />);
+
     }.bind(this));
     return (
       <section className="stage" ref="stage">
