@@ -10,4 +10,6 @@ function getImageURL(imageDatasArr){
   return imageDatasArr;
 }
 
+
+
 export default getImageURL;
